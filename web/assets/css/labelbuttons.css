@@ -1,0 +1,32 @@
+.labelbutton {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 44px;
+    border: 0px solid #5c5c80;
+    border-radius: 0px;
+    background: #744aff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#744aff), to(#4348a8));
+    background: -moz-linear-gradient(top, #744aff, #4348a8);
+    background: linear-gradient(to bottom, #744aff, #4348a8);
+    text-shadow: #1a175a 1px 1px 1px;
+    font: normal normal bold 16px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.labelbutton:hover,
+.labelbutton:focus {
+    border: 0px solid #9393cd;
+    background: #8b59ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8b59ff), to(#5056ca));
+    background: -moz-linear-gradient(top, #8b59ff, #5056ca);
+    background: linear-gradient(to bottom, #8b59ff, #5056ca);
+    color: #ffffff;
+    text-decoration: none;
+}
+.labelbutton:active {
+    background: #462c99;
+    background: -webkit-gradient(linear, left top, left bottom, from(#462c99), to(#4348a8));
+    background: -moz-linear-gradient(top, #462c99, #4348a8);
+    background: linear-gradient(to bottom, #462c99, #4348a8);
+}

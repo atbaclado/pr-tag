@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <div class="navbar navbar-inverse navbar-fixed-top headroom" >
+    <div class="container">
+      <div class="navbar-header">
+        <!-- Button for smallest screens -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="home.php"><img src="assets/images/logos.png" alt="Progressus HTML5 template"></a>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Header -->
+  <header id="head" style="margin-top: 100px !important;">
+    <div class="container">
+      <div class="row">
+        <h1 class="lead">Purchase Request Generator</h1>
+        <p class="tagline">A secure and convenient way of generating and tracking Purchase Request</p>
+        <p>
+        <!-- <a class="btn btn-default btn-lg" role="button">Contact Support</a> -->
+
+        <a class="btn btn-action btn-lg" role="button" href="signin.php">Log In</a></p>
+      </div>
+    </div>
+  </header>
+  <!-- /Header -->  
+
+  <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="assets/js/headroom.min.js"></script>
+  <script src="assets/js/jQuery.headroom.min.js"></script>
+  <script src="assets/js/template.js"></script>
+
+{% endblock %}

@@ -1,0 +1,163 @@
+body {
+	font-size: 19px;
+	margin: 0;
+	color: white;
+	background: #B6B6B4;
+	/*background-image: url("../images/background.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0% 0% 0% 0%;
+	background-attachment: fixed;
+}
+.container {
+	background: rgba(240,230,200,1);
+	padding: 30px 50px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+.secondary-navigation {
+	padding: 0;
+	margin: 0 1%;
+	height: 0px;
+}
+.secondary-navigation li {
+	list-style: none;
+	text-align: center;
+	float: right;
+	background:#030;
+	margin: 4% 1%;
+	width: 20%;
+}
+.secondary-navigation a {
+	display: block;
+	padding: 10px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: rgb(255,255,150);
+	background: #030;
+	border: 1px solid rgba(150,150,150,0.5);
+
+    transition-property: background, color, border;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+	.secondary-navigation a:hover {
+		background: #000;
+		color: rgb(255,255,80);
+		border: 1px solid gold;
+	}
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+
+.round-button {
+	width:40px;
+}
+.round-button-circle {
+	width: 40px;
+	height:40px;
+	padding: 10px;
+    border-radius: 50%;
+	/*border:10px solid #cfdcec;*/
+    overflow:hidden;  
+    background: #1589FF; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+	background:#000;
+}
+.round-button a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:40px;
+	margin-top:40px;
+    
+	text-align:center;
+	color: rgb(255,255,150);
+    font-family:Verdana;
+    /*font-size:1.2em;*/
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/*************************************************/
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	border: 2px solid gold;
+	border-radius: 50%;
+}
+/******************************************/
+h1, h2, h3, h4{
+	font-family: 'Tangerine', Arial, serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 100px;
+	margin: 0;
+	margin-top: -70px;
+        margin-bottom: 20px;
+	padding-top: 0px;
+	color: #030;
+	text-align: right;
+	border-bottom: 1px solid gold;
+	
+}
+
+h2 {
+	font-size: 35px;
+	margin: 20px auto;
+	color: rgb(255,255,80);
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: normal;
+	color: rgb(255,255,80);
+}
+
+h4 {
+	font-size: 30px;
+	font-weight: normal;
+	color: rgb(241,168,40);
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	width: 80%;
+	max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+	min-width: 780px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background: rgba(240,230,200,1);
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding:10px;
+	background:#FFC;
+	margin-top: 5%;
+	font-size: 10px;
+	text-align: center;
+	color: #000;
+}
+	footer h4 {
+		font-size: 20px;
+		line-height: 20px;
+		margin: 0;
+	}
+	footer p {
+		font-size: 10px;
+		line-height: 18px;
+		margin: 0;
+		padding: 0;
+	}
